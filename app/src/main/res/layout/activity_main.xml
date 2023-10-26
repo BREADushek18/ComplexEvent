@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:text="Введите текст"
+        android:id="@+id/EditText"/>
+
+    <CheckBox
+        android:id="@+id/CheckBox"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:text="Вы точно хотите сохранить данный текст?" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Да. сохранить" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:text="Здесь будет сохраненный текст" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
